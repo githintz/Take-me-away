@@ -1,5 +1,6 @@
 node_modules/
 dist/
+# docs/ is intentionally tracked — it is the GitHub Pages build output
 *.tsbuildinfo
 .env
 .env.local

@@ -5,6 +5,7 @@ import { resolve } from 'path'
 
 export default defineConfig({
   base: '/Take-me-away/',
+  build: { outDir: 'docs' },
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
